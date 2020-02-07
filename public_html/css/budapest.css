@@ -1,3 +1,19 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 7, 2017, 3:16:49 PM
+    Author     : ruzsaz
+*/
+/* 
+    Document   : frame
+    Created on : 2014.01.29., 16:03:26
+    Author     : ruzsaz
+    Description:
+        Purpose of the stylesheet follows.
+*/
 /* 
     Created on : Nov 7, 2017, 3:16:49 PM
     Author     : ruzsaz
@@ -39,7 +55,7 @@
   width: 0px;
 }
 #less .rounding {
-  width: 10px;
+  width: 9px;
 }
 #less .writeOnDimColor {
   color: white;
@@ -60,16 +76,16 @@
   color: white;
 }
 #less .panelBackgroundColor {
-  color: #343434;
+  color: rgba(0, 0, 0, 0.5);
 }
 #less .switchColor {
   color: #40bddf;
 }
 #less .oddColor {
-  color: #555;
+  color: #91681b;
 }
 #less .evenColor {
-  color: #666;
+  color: #c58b1f;
 }
 #less .stripeWidth {
   width: 8px;
@@ -93,61 +109,61 @@
   color: #0885a4;
 }
 #less .valColor19 {
-  color: #7d9c53;
-}
-#less .valColor18 {
-  color: #c2b211;
-}
-#less .valColor17 {
   color: #badb8e;
 }
-#less .valColor16 {
+#less .valColor18 {
   color: #b8bf5a;
 }
-#less .valColor15 {
-  color: #f7e306;
-}
-#less .valColor14 {
+#less .valColor17 {
   color: #bfe8f6;
 }
-#less .valColor13 {
+#less .valColor16 {
   color: #9ccf61;
 }
-#less .valColor12 {
+#less .valColor15 {
   color: #80d4e9;
 }
-#less .valColor11 {
+#less .valColor14 {
   color: #3db8a3;
 }
-#less .valColor10 {
+#less .valColor13 {
   color: #d4cc4c;
 }
-#less .valColor9 {
+#less .valColor12 {
   color: #43b57c;
 }
-#less .valColor8 {
+#less .valColor11 {
   color: #9eb060;
 }
-#less .valColor7 {
+#less .valColor10 {
   color: #00a6d3;
 }
-#less .valColor6 {
-  color: #faeb4c;
+#less .valColor9 {
+  color: #c2b211;
 }
-#less .valColor5 {
-  color: #85c222;
-}
-#less .valColor4 {
-  color: #22ada6;
-}
-#less .valColor3 {
+#less .valColor8 {
   color: #8c8014;
 }
-#less .valColor2 {
+#less .valColor7 {
+  color: #22ada6;
+}
+#less .valColor6 {
+  color: #40bddf;
+}
+#less .valColor5 {
+  color: #719c2c;
+}
+#less .valColor4 {
+  color: #89b83e;
+}
+#less .valColor3 {
   color: #bad642;
 }
+#less .valColor2 {
+  color: #ffef44;
+}
 #less .valColor1 {
-  color: #40bddf;
+  color: #f8ed6e;
 }
 * {
   -moz-user-select: -moz-none;
@@ -175,7 +191,7 @@ body {
   padding: 0px;
   overflow-x: hidden;
   overflow-y: hidden;
-  background: black;
+  background: rgba(0, 0, 0, 0.5);
   color: #ffffff;
 }
 svg {
@@ -187,7 +203,7 @@ svg {
 #topdiv {
   width: 100%;
   overflow: hidden;
-  background-image: none;
+  background-image: url('https://img4.goodfon.com/wallpaper/nbig/8/71/budapest-bridge-budapesht-most.jpg');
 }
 #progressDiv {
   position: absolute;
@@ -239,7 +255,7 @@ svg {
 }
 .panel {
   box-shadow: 0px 0px 0px 0px white;
-  border-radius: 10px;
+  border-radius: 9px;
   padding: 0px;
   float: left;
   width: 600px;
@@ -274,12 +290,12 @@ svg {
 .mainTitle {
   color: white;
   text-align: center;
-  font-size: 20px;
+  font-size: 24px;
   padding-top: 16px;
   padding-bottom: 0px;
 }
 .panelMask {
-  background: #343434;
+  background: rgba(0, 0, 0, 0.5);
   width: 100%;
   height: 100%;
   position: absolute;
@@ -297,12 +313,12 @@ svg {
 /* Ez azért kell, hogy az elmentett panel-képen is ott legyen a háttér */
 .backgroundForSave {
   opacity: 1;
-  rx: 10px;
-  fill: #343434;
+  rx: 9px;
+  fill: rgba(0, 0, 0, 0.5);
 }
 /* Panel */
 .panic rect {
-  fill: #343434;
+  fill: rgba(0, 0, 0, 0.5);
 }
 /* Panel */
 .panic text {
@@ -313,7 +329,7 @@ svg {
   overflow: hidden;
   position: relative;
   height: auto;
-  background: #343434;
+  background: rgba(0, 0, 0, 0.5);
 }
 .label {
   fill: white;
@@ -330,14 +346,14 @@ div.tooltip {
   padding: 6px 12px;
   background: black;
   border: 0px solid white;
-  border-radius: 10px;
+  border-radius: 9px;
   pointer-events: none;
-  font-size: 16px;
+  font-size: 14px;
   z-index: 500;
   text-align: left;
 }
 div.tooltip em {
-  font-size: 16px;
+  font-size: 18px;
 }
 div.tooltip ul {
   list-style-position: inside;
@@ -392,7 +408,7 @@ mask path {
 /* Panel_Map */
 .gPoiLegend rect {
   opacity: 0.6;
-  fill: black;
+  fill: rgba(0, 0, 0, 0.5);
 }
 /* Panel_Map */
 .poiLegend rect {
@@ -448,15 +464,15 @@ mask path {
 /* Panel_Table2D */
 .svgTableHolder rect {
   stroke-width: 1;
-  stroke: #343434;
+  stroke: rgba(0, 0, 0, 0.5);
 }
 /* Panel_Table2D */
 .alterColored[parity="0"] > .backgroundRect {
-  fill: #666;
+  fill: #c58b1f;
 }
 /* Panel_Table2D */
 .alterColored[parity="1"] > .backgroundRect {
-  fill: #555;
+  fill: #91681b;
 }
 /* Panel_Table2D */
 .alterColored[parity="1"] > .alterColored[parity="0"] > .backgroundRect,
@@ -481,7 +497,7 @@ mask path {
   font-size: 12px;
 }
 .titleText {
-  font-size: 20px;
+  font-size: 24px;
   font-weight: bold;
   fill: black;
 }
@@ -509,8 +525,8 @@ mask path {
 }
 /* Panel_BarLine */
 .shadow {
-  fill: #343434;
-  stroke: #343434;
+  fill: rgba(0, 0, 0, 0.5);
+  stroke: rgba(0, 0, 0, 0.5);
 }
 .divTableBase {
   margin: 0px 4px 16px;
@@ -556,7 +572,7 @@ mask path {
 /* HeadPanel */
 .cell {
   display: table-cell;
-  font-size: 16px;
+  font-size: 14px;
   padding-top: 5px;
   padding-bottom: 5px;
   line-height: 20px;
@@ -580,7 +596,7 @@ mask path {
   color: black;
 }
 .heading .cell {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: bold;
 }
 .valTable .realText {
@@ -634,14 +650,14 @@ mask path {
 }
 /* HeadPanel */
 .alterColored[parity="0"] .backgroundCell {
-  background: #666;
+  background: #c58b1f;
 }
 /* HeadPanel */
 .alterColored[parity="1"] .backgroundCell {
-  background: #555;
+  background: #91681b;
 }
 .row .backgroundCell {
-  border-radius: 10px;
+  border-radius: 9px;
   border: 0px solid white;
   box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.75);
@@ -692,7 +708,7 @@ mask path {
 /* Cointainer, drag réteg */
 .dragCircle {
   background: lightGrey;
-  border-radius: 10px;
+  border-radius: 9px;
   border: 0px solid white;
   z-index: 900;
   position: absolute;
@@ -705,7 +721,7 @@ mask path {
   line-height: 30px;
   white-space: nowrap;
   overflow: hidden;
-  font-size: 16px;
+  font-size: 14px;
   pointer-events: none;
   color: red;
 }
@@ -748,7 +764,7 @@ mask path {
 }
 body {
   -ms-scrollbar-face-color: #40bddf;
-  -ms-scrollbar-track-color: black;
+  -ms-scrollbar-track-color: rgba(0, 0, 0, 0.5);
   -ms-scrollbar-arrow-color: #40bddf;
   -ms-scrollbar-shadow-color: #40bddf;
 }
@@ -760,7 +776,7 @@ body {
 ::-webkit-scrollbar-track {
   -webkit-border-radius: 5px;
   border-radius: 5px;
-  background: black;
+  background: rgba(0, 0, 0, 0.5);
 }
 /* Handle */
 ::-webkit-scrollbar-thumb {
@@ -788,24 +804,24 @@ p.submit {
 }
 :-moz-placeholder {
   color: #c9c9c9 !important;
-  font-size: 16px;
+  font-size: 18px;
 }
 ::-webkit-input-placeholder {
-  color: #555;
-  font-size: 16px;
+  color: #91681b;
+  font-size: 18px;
 }
 input {
-  font-size: 16px;
+  font-size: 18px;
 }
 input[type=text],
 input[type=password] {
   width: 278px;
   padding: 0 10px;
   height: 34px;
-  color: #343434;
+  color: rgba(0, 0, 0, 0.5);
   background: white;
   border: 0px solid white;
-  border-radius: 10px;
+  border-radius: 9px;
   -moz-outline-radius: 3px;
 }
 input[type=text],
@@ -834,11 +850,11 @@ button {
   margin-right: 5px;
   padding: 0 18px;
   height: 29px;
-  font-size: 16px;
+  font-size: 14px;
   color: white;
-  background: #555;
+  background: #91681b;
   border: 0px solid white;
-  border-radius: 10px;
+  border-radius: 9px;
 }
 /* universal */
 text {
@@ -1342,7 +1358,7 @@ text {
 #mainToolbar nav ul ul {
   padding: 0;
   top: 100%;
-  border-radius: 10px;
+  border-radius: 9px;
   display: block;
   opacity: 0;
   position: absolute;
@@ -1360,8 +1376,8 @@ text {
   height: 32px;
   width: 100vw;
   padding: 0px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
 }
 #mainToolbar nav ul li {
   float: left;
@@ -1382,7 +1398,7 @@ svg.plusButtonHelp {
   min-width: 32px;
   max-width: 44px;
   width: 5%;
-  border-bottom-left-radius: 10px;
+  border-bottom-left-radius: 9px;
   background: #40bddf;
 }
 #mainToolbar > nav > ul > li#mainMinusButton,
@@ -1398,7 +1414,7 @@ svg.closeButtonHelp {
   min-width: 32px;
   max-width: 44px;
   width: 5%;
-  border-bottom-right-radius: 10px;
+  border-bottom-right-radius: 9px;
   background: #40bddf;
 }
 #mainToolbar > nav > ul > li#mainSwitchButton,
@@ -1417,8 +1433,8 @@ svg.switchButtonHelp {
   height: 32px;
   width: 100vw;
   padding: 0px;
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
 }
 #mainToolbar nav ul li > span {
   width: 100%;
@@ -1467,7 +1483,7 @@ svg.switchButtonHelp {
   margin: auto;
 }
 #mainToolbar nav ul ul li {
-  background: red;
+  background: #888888;
   float: none;
   border-top: 1px solid #a0a0a0;
   border-bottom: 1px solid #6d6d6d;
@@ -1506,8 +1522,8 @@ svg.switchButtonHelp {
   background: -webkit-linear-gradient(top, #a0a0a0 0%, #888888 50%);
   background: -ms-linear-gradient(top, #a0a0a0 0%, #888888 50%);
   background: -o-linear-gradient(top, #a0a0a0 0%, #888888 50%);
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
 }
 #mainToolbar nav ul ul li:last-child {
   background: top, #888888 50%, #6d6d6d 100%;
@@ -1516,8 +1532,8 @@ svg.switchButtonHelp {
   background: -webkit-linear-gradient(top, #888888 50%, #6d6d6d 100%);
   background: -ms-linear-gradient(top, #888888 50%, #6d6d6d 100%);
   background: -o-linear-gradient(top, #888888 50%, #6d6d6d 100%);
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
 }
 #mainToolbar nav ul ul li span {
   padding: 9px 0px;
@@ -1552,8 +1568,8 @@ svg.switchButtonHelp {
   width: 100vw;
   height: 32px;
   background: rgba(0, 0, 0, 0);
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
   box-shadow: inset 0px -24px 24px -12px rgba(0, 0, 0, 0.2), 3px 3px 9px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: inset 0px -24px 24px -12px rgba(0, 0, 0, 0.2), 3px 3px 9px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: inset 0px -24px 24px -12px rgba(0, 0, 0, 0.2), 3px 3px 9px rgba(0, 0, 0, 0.75);
@@ -1585,7 +1601,7 @@ svg.switchButtonHelp {
   opacity: 0;
 }
 .svgScrollbarTrack {
-  fill: black;
+  fill: rgba(0, 0, 0, 0.5);
   box-shadow: 0px 0px 0px 1px #343434;
   -webkit-box-shadow: 0px 0px 0px 1px #343434;
   -moz-box-shadow: 0px 0px 0px 1px #343434;
@@ -1605,7 +1621,7 @@ svg.switchButtonHelp {
   width: 100vw;
   height: 100vh;
   display: none;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.5);
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
@@ -1631,25 +1647,25 @@ svg.switchButtonHelp {
   padding: 20px 20px 20px;
   width: 310px;
   min-height: 208px;
-  border-radius: 10px;
-  background: #343434;
+  border-radius: 9px;
+  background: rgba(0, 0, 0, 0.5);
   border: 0px solid white;
 }
 #dialogPanel h1 {
   margin: -20px -20px 21px;
   height: 40px;
   line-height: 40px;
-  font-size: 16px;
+  font-size: 18px;
   color: white;
   fill: #e7e7e7;
   stroke-width: 0px;
   text-align: center;
-  background: #555;
-  border-radius: 10px 10px 0 0;
+  background: #91681b;
+  border-radius: 9px 9px 0 0;
 }
 #dialogMask {
   z-index: 150;
-  background-image: none;
+  background-image: url('https://img4.goodfon.com/wallpaper/nbig/8/71/budapest-bridge-budapesht-most.jpg');
   background-color: rgba(0, 0, 0, 0.9);
 }
 #dialogMessage {
@@ -1707,7 +1723,7 @@ svg.switchButtonHelp {
   width: 272px;
   background-color: #e7e7e7;
   border: 4px solid #e7e7e7;
-  border-radius: 10px;
+  border-radius: 9px;
   padding: 0px;
   outline: none;
 }
@@ -1738,7 +1754,7 @@ svg.switchButtonHelp {
   top: 0px;
   overflow: hidden;
   margin: 6px;
-  border-radius: 10px;
+  border-radius: 9px;
 }
 #helpScrollPane {
   position: relative;
@@ -1785,7 +1801,7 @@ svg.switchButtonHelp {
   background: -o-linear-gradient(top, #a0a0a0 0%, #888888 30px, #6d6d6d 100%);
   background: -ms-linear-gradient(top, #a0a0a0 0%, #888888 30px, #6d6d6d 100%);
   border: 0px solid white;
-  border-radius: 10px;
+  border-radius: 9px;
 }
 .helpContent .indent {
   padding-left: 20px;
@@ -1905,7 +1921,7 @@ svg.switchButtonHelp {
   border-right: 1px solid #6d6d6d;
   display: inline-block;
   vertical-align: middle;
-  border-radius: 10px;
+  border-radius: 9px;
   background: #888888;
   width: 63px;
   height: 38px;
@@ -1932,3 +1948,26 @@ svg.switchButtonHelp {
 #loginReadyPercentage {
   font-size: 40px;
 }
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHjx4wWw.ttf) format('truetype');
+}
+* {
+  font-family: 'Lato', arial, sans-serif;
+}
+/* A háttérszín */
+/* Párbeszédablakok háttere */
+/* A panel, és az arra írás színe */
+/* Keretek */
+/* Kerekítettség */
+/* Árnyékok */
+/* A dimenziók válatakozó színei */
+/* Értékek színei */
+/* Elemek körüli határ */
+/* Input mezők színezése */
+/* Fejléc színei, árnyékolása */
+/* Scrollbar */
+/* Help színezése */
+/* Tooltip */
