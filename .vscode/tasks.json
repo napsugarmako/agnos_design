@@ -7,7 +7,7 @@
         {
             "label": "Less Compile",
             "type": "shell",
-            "command": "lessc C:/Users/26639.GROUPIT/Desktop/agnos_redesign/agnos_colorized/public_html/less/covid.less C:/Users/26639.GROUPIT/Desktop/agnos_redesign/agnos_colorized/public_html/css/covid.css",
+            "command": "lessc C:/Users/26639.GROUPIT/Desktop/agnos_redesign/agnos_colorized/public_html/less/covid_minimal.less C:/Users/26639.GROUPIT/Desktop/agnos_redesign/agnos_colorized/public_html/css/covid_minimal.css",
             "group": "build",
             "problemMatcher": []
         }
