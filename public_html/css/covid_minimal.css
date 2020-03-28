@@ -204,7 +204,7 @@ svg {
 #topdiv {
   width: 100%;
   overflow: hidden;
-  background-image: none;
+  background-image: url('../data/pictures/eee_2.png');
 }
 #progressDiv {
   position: absolute;
@@ -746,7 +746,7 @@ mask path {
 .titleRect {
   stroke-width: 2px;
   opacity: 0;
-  fill: #c92d3a;
+  fill: #d34d58;
 }
 .titleButton0:hover ~ .titleText0,
 .titleButton1:hover ~ .titleText1 {
@@ -1608,7 +1608,7 @@ svg.switchButtonHelp {
   -moz-box-shadow: 0px 0px 0px 1px #343434;
 }
 .svgScrollbarThumb {
-  fill: #c92d3a;
+  fill: #d34d58;
 }
 .svgScrollbar::-webkit-scrollbar-track {
   box-shadow: 0px 0px 0px 1px #343434;
@@ -1666,7 +1666,7 @@ svg.switchButtonHelp {
 }
 #dialogMask {
   z-index: 150;
-  background-image: none;
+  background-image: url('../data/pictures/eee_2.png');
   background-color: #cfcfcf;
 }
 #dialogMessage {
